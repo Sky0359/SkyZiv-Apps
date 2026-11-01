@@ -1,0 +1,15 @@
+
+{
+  "name": "skyziv-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/player",
+    "apps/business",
+    "packages/shared"
+  ],
+  "scripts": {
+    "start:player": "npm run start --workspace=@skyziv/player",
+    "start:business": "npm run start --workspace=@skyziv/business"
+  }
+}
